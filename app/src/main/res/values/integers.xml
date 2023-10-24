@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        // Number of recyclerview (RoundScores) items displayed on the first page
+        <integer name="round_scores_threshold">5</integer>
+    </resources>

@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Games Scoresheet</string>
+
+    <string name="bt_new_game">Nowa gra</string>
+    <string name="bt_add_player">Dodaj gracza</string>
+    <string name="bt_remove">Usuń</string>
+    <string name="bt_back">Powrót</string>
+    <string name="bt_selected">Wybierz</string>
+    <string name="bt_save">Zapisz rundę</string>
+    <string name="bt_end_game">Zakończ grę</string>
+    <string name="bt_edit">Edytuj</string>
+
+    <string name="label_games_played">Rozegrane gry</string>
+    <string name="label_new_player">Nowy gracz</string>
+    <string name="label_new_game">Nowa gra</string>
+    <string name="label_empty_player_list">Przejdź do listy graczy i dodaj uczestników gry.</string>
+    <string name="label_default_game_name">Gra</string>
+    <string name="label_player_list">Lista graczy</string>
+    <string name="label_loading">Wczytywanie…</string>
+    <string name="label_score_current_round">Wprowadź punkty bieżącej rundy</string>
+    <string name="label_game_finished">Gra zakończona</string>
+    <string name="label_drag_and_drop">(podnieść i upuść by zmienić kolejność graczy)</string>
+    <string name="label_score">Rozegrane rundy</string>
+    <string name="label_total_score">Wynik gry</string>
+    <string name="label_finished">Status: Zakończona</string>
+    <string name="label_not_finished">Status: W trakcie</string>
+
+    <string name="header_game">Gra: %1$s</string>
+
+    <string name="dlabel_selected_players">Wybrano graczy: %1$d</string>
+    <string name="dlabel_players_at_the_table">Uczestnicy gry: (%1$d) %2$s.</string>
+    <string name="dlabel_round_name_suggested">Runda %1$d</string>
+    <string name="dlabel_player_score_info">(x̄ %2$s) %1$d</string>
+    <string name="dlabel_winner_game_finished">%1$d. %2$s (%3$s)</string>
+    <string name="dlabel_winner_game_not_finished">%1$d. %2$s</string>
+
+    <string name="dialog_remove_player">Czy na pewno usunąć gracza %1$s?</string>
+    <string name="dialog_remove_round">Czy na pewno usunąć: %1$s?</string>
+    <string name="dialog_remove_game">Czy na pewno usunąć grę: %1$s?</string>
+    <string name="dialog_end_game">Po zakończeniu gry późniejsza kontynuacja nie będzie możliwa. Zakończyć bieżącą grę?</string>
+    <string name="dialog_remove">Usuń</string>
+    <string name="dialog_cancel">Anuluj</string>
+    <string name="dialog_end">Zakończ</string>
+
+    <string name="hint_enter_name">Wprowadź imię</string>
+    <string name="hint_enter_game_name">Wprowadź nazwę gry</string>
+    <string name="hint_player_list">Lista graczy</string>
+    <string name="hint_leave_game">Opuść grę</string>
+    <string name="hint_score_table">Tabela wyników</string>
+    <string name="hint_default_score">0</string>
+    <string name="hint_sum_icon">Suma punktów w grze</string>
+    <string name="hint_ave_icon">Średnio punktów na rundę</string>
+
+    <string name="toast_empty_player_name">Wprowadź imię nowego gracza</string>
+    <string name="toast_select_players">Wybierz przynajmniej jednego uczestnika gry</string>
+
+    <plurals name="dlabel_player_score">
+        <item quantity="one">%1$d punkt</item>
+        <item quantity="few">%1$d punkty</item>
+        <item quantity="other">%1$d punktów</item>
+    </plurals>
+</resources>

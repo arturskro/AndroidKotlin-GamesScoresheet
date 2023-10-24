@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/gameListFragment">
+    <fragment
+        android:id="@+id/gameListFragment"
+        android:name="pl.arturs.android.gamescoresheet.GameListFragment"
+        android:label="fragment_start"
+        tools:layout="@layout/fragment_game_list" >
+        <action
+            android:id="@+id/action_gameListFragment_to_playerListFragment"
+            app:destination="@id/playerListFragment" />
+        <action
+            android:id="@+id/action_gameListFragment_to_scoreBoardFragment"
+            app:destination="@id/scoreBoardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playerListFragment"
+        android:name="pl.arturs.android.gamescoresheet.PlayerListFragment"
+        android:label="fragment_player_list"
+        tools:layout="@layout/fragment_player_list" />
+    <fragment
+        android:id="@+id/scoreBoardFragment"
+        android:name="pl.arturs.android.gamescoresheet.ScoreBoardFragment"
+        android:label="fragment_score_board"
+        tools:layout="@layout/fragment_score_board" />
+</navigation>
