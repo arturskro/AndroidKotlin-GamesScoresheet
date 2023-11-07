@@ -5,7 +5,7 @@ Moja w pełni autorska aplikacja na system Android. Notatnik dla wyników z gier
 - sumuje wyniki graczy z każdej rundy oraz prezentuje je w formie graficznej
 
 
-Niektóre z wykorzystanych technologii i komponentów
+Niektóre z wykorzystanych technologii i komponentów:
 - IDE Android Studio
 - wzorzec MVVM
 - baza danych Room
