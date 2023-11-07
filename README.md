@@ -7,11 +7,12 @@ Moja w pełni autorska aplikacja na system Android. Notatnik dla wyników z gier
 
 Niektóre z wykorzystanych technologii i komponentów:
 - IDE Android Studio
-- wzorzec MVVM
-- baza danych Room
-- zarządzanie fragmentami
+- MVVM Pattern
+- Room Database
+- Fragment Management
 - RecyclerView
 - Navigation Component
 - ViewModel
 - VievBinding
 - Coroutines
+- Asynchronous Flow
