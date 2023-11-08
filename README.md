@@ -13,6 +13,6 @@ Niektóre z wykorzystanych technologii i komponentów:
 - RecyclerView
 - Navigation Component
 - ViewModel
-- VievBinding
+- ViewBinding
 - Coroutines
 - Asynchronous Flow
